@@ -5,7 +5,7 @@ This repository is a starting point and shared code for Nordic nRF5x BLE platfor
 a collection of libraries, SDKs, Softdevices, and Makefiles to be included
 within other projects using the Nordic platfroms. Pull requests welcome.
 
-The currently supported SDK versions are: 9.0.0, 10.0.0, 11.0.0, 12.2.0.
+The currently supported SDK versions are: 9.0.0, 10.0.0, 11.0.0, 12.2.0, 12.3.0.
 
 The currently supported Softdevice versions are:
 s110_7.3.0, s110_8.0.0, s120_2.1.0, s130_1.0.0, s130_2.0.0, s130_2.0.1.
@@ -129,8 +129,8 @@ The "EDU" edition works fine.
     instead of the way-too-large ARM JTAG header. We use [our own](https://github.com/lab11/jtag-tagconnect)
     adapter, but Segger also makes [one](https://www.segger.com/jlink-6-pin-needle-adapter.html).
 
-5. Upon inital programming, the nRF will enter debug mode, which will prevent the nRF from sleeping and 
-   prevent the reset line from working. To fix this, either perform a powerdown/powerup or download nrfjprog from 
+5. Upon inital programming, the nRF will enter debug mode, which will prevent the nRF from sleeping and
+   prevent the reset line from working. To fix this, either perform a powerdown/powerup or download nrfjprog from
    (https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822) and run nrfjprog --pinreset
 
 Git Submodules
