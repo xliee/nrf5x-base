@@ -1,0 +1,3 @@
+[submodule "firmware/nrf5x/nrf5x-base"]
+	path = micro-ecc
+	url = https://github.com/xliee/nrf5x-base.git
